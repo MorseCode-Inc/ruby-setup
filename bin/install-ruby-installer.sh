@@ -22,5 +22,7 @@ tar -xzvf "ruby-install-${VER}.tar.gz"
 cd "ruby-install-${VER}/"
 make install
 install-ruby
+ruby-install ruby --latest
+
 
 exit
