@@ -13,6 +13,11 @@ else
 	OSTYPE=$(uname -v)
 fi
 
+if [ "$USERID" != 0 ]
+then
+	SUDO="sudo"
+fi
+
 if [ -z "$OSTYPE" ]
 then
 	echo "Unable to detect host operating system."
@@ -21,9 +26,9 @@ fi
 
 echo "Detected host operating system: $OSTYPE"
 
-case "$OSTYPE"
+case "$OSTYPE" in
 Ubuntu)
-	apt-get install libsqlite3-dev
+	$SUDO apt-get install libsqlite3-dev
 	;;
 CentOS*)
 	;&
