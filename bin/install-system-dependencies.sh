@@ -29,6 +29,7 @@ echo "Detected host operating system: $OSTYPE"
 case "$OSTYPE" in
 Ubuntu)
 	$SUDO apt-get install libsqlite3-dev
+	$SUDO apt-get install nodejs
 	;;
 CentOS*)
 	;&
