@@ -14,6 +14,9 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 syntax enable
+filetype on
+filetype indent on
+filetype plugin on
 set background=dark
 colorscheme solarized
 let g:syntastic_ruby_mri_exec = '~/.rubies/ruby-2.3.0/bin/ruby'
