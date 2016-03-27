@@ -6,6 +6,7 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'scrooloose/syntastic'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-rails'
+Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 "
 
