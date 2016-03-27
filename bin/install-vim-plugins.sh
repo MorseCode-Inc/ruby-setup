@@ -4,11 +4,21 @@
 PLUGS="
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'scrooloose/syntastic'
+Plug 'scrooloose/nerdcommenter'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-haml'
+Plug 'tpope/vim-markdown'
+Plug 'tpope/vim-fugitive'
 Plug 'vim-ruby/vim-ruby'
+Plug 'slim-template/vim-slim'
+Plug 'bling/vim-airline'
+Plug 'pangloss/vim-javascript'
+Plug 'kchmck/vim-coffee-script'
+Plug 'elzr/vim-json'
+Plug 'tomtom/tlib_vim'
+Plug 'ervandew/supertab'
 "
 
 DIRECTIVES="
