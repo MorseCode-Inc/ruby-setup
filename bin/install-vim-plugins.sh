@@ -4,6 +4,8 @@
 PLUGS="
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'altercation/vim-colors-solarized'
+Plug 'tpope/vim-rails'
+Plug 'vim-ruby/vim-ruby'
 "
 
 DIRECTIVES="
