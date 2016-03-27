@@ -16,6 +16,7 @@ set expandtab
 syntax enable
 set background=dark
 colorscheme solarized
+let g:syntastic_ruby_mri_exec = '~/.rubies/ruby-2.3.0/bin/ruby'
 "
 
 if [ -z "$HOME" ]
