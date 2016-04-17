@@ -30,6 +30,7 @@ case "$OSTYPE" in
 Ubuntu)
 	$SUDO apt-get install libsqlite3-dev
 	$SUDO apt-get install nodejs
+	$SUDO apt-get install mysql-client
 	;;
 CentOS*)
 	;&
